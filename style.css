@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(https://c4.wallpaperflare.com/wallpaper/919/395/798/gradient-nightscape-digital-art-moon-wallpaper-preview.jpg) no-repeat;
+    background-size: cover;
+}
+.form-container {
+    backdrop-filter: blur(20px);
+    background: transparent;
+    padding: 30px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+form {
+    width: 300px;
+}
+label {
+    display: block;
+    color: #fff;
+    padding-bottom: 6px;
+}
+input {
+    display: block;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    color: #fff;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    transition: background-color 5000s;
+    -webkit-text-fill-color: #fff !important;
+}
+input:focus-visible {
+    outline: none;
+}
+
+.form-group {
+    padding: 15px 0;
+}
+.form-check input, .form-check label {
+    width: auto;
+    display: inline;
+    font-size: 13px;
+    color: #ffffffc7;
+}
+
+h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+}
+p{
+    color:rgba(26, 25, 25, 0.816) ;
+    font-weight: bold;
+}
+
+button {
+    background: #fff;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 8px;
+    transition: .4s;
+    border: 1px solid #fff;
+    font-weight: bold;
+}
+button:hover {
+    cursor: pointer;
+    background: #ffffff4f;
+    border: 1px solid #fff;
+    transition: .4s;
+}
+
+.input-with-icon {
+    position: relative;
+}
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding-bottom: 10px;
+    transform: translateY(-50%);
+    color: #fff;
+}
